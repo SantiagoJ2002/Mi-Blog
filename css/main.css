@@ -41,3 +41,44 @@ header .header-icons-container .icons {
 header .icons span {
     color: white;
 }
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+
+}
+nav .nav-logo-container {
+    margin-left: 50px;
+
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+    
+}
+.zona_titular {
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Fondo_astronauta.png/800px-Fondo_astronauta.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.zona_titular_titulo h1{
+    color: white;
+    
+}
